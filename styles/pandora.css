@@ -1,0 +1,44 @@
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px; /* 16px ou 100% ou 1em */
+}
+
+.site-container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+    width: 1200px;
+    height: 350px;
+}
+
+.site-header {
+  height: auto;
+}
+
+.site-header nav ul li {
+    width: 200px;
+    display: block;
+    text-align: center;
+    float: left;
+    line-height: 2.5;
+    text-decoration: none;
+    color: indianred;
+    background-color: #f2a4b2;  
+}
+
+.site-header nav ul li:hover {
+    background-color: mediumaquamarine;
+    color: palevioletred;
+}
+
+article h1 {
+    padding: 10px;
+    background-color: mediumaquamarine;
+}
+
+.job-title {
+    font-style: italic;
+}
