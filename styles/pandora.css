@@ -12,6 +12,7 @@ body{
 img {
     width: 1200px;
     height: 350px;
+    display: block;
 }
 
 .site-header {
@@ -26,17 +27,25 @@ img {
     line-height: 2.5;
     text-decoration: none;
     color: indianred;
-    background-color: #f2a4b2;  
+    background-color: #c08377;  
 }
 
 .site-header nav ul li:hover {
-    background-color: mediumaquamarine;
-    color: palevioletred;
+    background-color: #709489;
+    color: #8d644d;
+}
+
+.site-header nav ul li:active {
+    color: #8d644d;
 }
 
 article h1 {
     padding: 10px;
-    background-color: mediumaquamarine;
+    background-color: #cfb19d;
+}
+
+.duration {
+    font-style: italic;
 }
 
 .job-title {
